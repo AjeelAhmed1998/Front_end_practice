@@ -1,1 +1,49 @@
-/*hello, this is how you write a comment in a css file  */
+/*hello, this is how you write a comment in a css file
+
+body {
+font-size: 14px;
+color: navy;
+}
+
+so in here body is a selector
+and font and color are the properties
+
+
+a margin is the space outside something while padding is the space inside something
+*/
+
+
+ p{
+   color: #900 ;
+   background-color: white;
+   font-family: "Times new roman";
+   font-style: italic;
+   margin: 20px;
+   padding: 40px;
+   border-style: dashed;
+   border-width: 3px;
+   text-transform: full-width;
+
+   border-color: red;
+   /* this is not working for some reason
+     |
+     |
+     V
+
+    */
+   border-left: 10px;
+
+   border-right: 10px;
+
+ }
+
+
+ a{
+   color: #ccc ;
+   text-decoration: none;
+ }
+
+ body{
+   font-size: 14px;
+   color: navy;
+ }
