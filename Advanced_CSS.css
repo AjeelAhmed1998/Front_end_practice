@@ -1,0 +1,42 @@
+/* advanced css
+@import "Beginner_CSS.css";
+
+@import "Intermediate_CSS.css";
+
+*/
+
+body{
+  color: green ;
+  background-color: black;
+}
+
+.marilyn {
+    background: yellow;
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: blue;
+    border
+}
+
+/* children and adjacent selectors */
+
+a:link{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+
+a:hover{
+  transition: all 2s linear 2;
+  color: hsla(360, 100%, 100%, 0.5);
+}
+
+
+body{
+  background: radial-gradient(orange, red);
+}

@@ -5,15 +5,54 @@ font-size: 14px;
 color: navy;
 }
 
-so in here body is a selector
+
+inline
+<p style="color: red">text</p>
+
+internal
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Example</title>
+<style>
+
+    p {
+        color: red;
+    }
+
+    a {
+        color: blue;
+    }
+
+</style>
+...
+
+
+external
+p {
+    color: red;
+}
+
+a {
+    color: blue;
+}
+
+This will make all of the paragraphs in the page red and all of the links blue.
+
+Although preferable to
+Although preferable to
+
+so in here body is an HTML selector
 and font and color are the properties
+and the 14px and navy is called value
 
 
 a margin is the space outside something while padding is the space inside something
 */
 
-
  p{
+
    color: #900 ;
    background-color: white;
    font-family: "Times new roman";
@@ -39,7 +78,7 @@ a margin is the space outside something while padding is the space inside someth
 
 
  a{
-   color: #ccc ;
+   color: blue ;
    text-decoration: none;
  }
 
