@@ -1,0 +1,57 @@
+/* css file for google homepage  */
+
+#topBlock{
+  position: fixed;
+  visibility: visible;
+  right: 10px;
+  top: 0px;
+}
+
+#mainBlock{
+  position: absolute;
+  visibility: visible;
+  right: 450px;
+  top: 150px;
+
+
+}
+
+
+#bottomBlock{
+  position: absolute;
+  visibility: visible;
+  left: 10px;
+  bottom: 0px;
+}
+
+#searchBar{
+
+  background: white;
+  width: 275px;
+  height: 25px;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: silver;
+
+}
+
+.buttons{
+  color: grey;
+  margin-top: 20px;
+  margin-right: 45px;
+  border-radius: 4px;
+}
+
+#country{
+  background-color: grey;
+}
+#footer{
+  background-color: grey;
+}
+#hsw{
+  margin-right: 750px;
+  right: 0px;
+  color: red;
+
+
+}
